@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EDEDE9;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    background-color: #D5BDAF;
+    text-align: center;
+    /*padding: 5px; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #D6CCC2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+    background-color: #E3D5CA;
+    height: 55%;
+    width: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+a:hover{
+    background-color: #F5EBE0;
+    
+}
+
+.navbar {
+    background-color: #D6CCC2;
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.herosection{
+    height: 300px;
+    width: 100%;
+    background-image: url(img.png);
+    background-position: center;
+}
+
+.intro {
+    height: 500px;
+    width: 100%;
+    background-color: #E3D5CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.intro-cont{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5EBE0;
+    border-radius: 10px;
+}
+.intro-img {
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-img{
+    height: 90%;
+    width: 90%;
+    background-image: url(image2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.intro-text {
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-area{
+    height: 90%;
+    width: 90%;
+}
+
+
+
+.skills {
+    margin: 20px;
+    padding: 10px;
+
+}
+
+h2 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 5px;
+
+    background-color: #f0dcc3;
+}
+
+article {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #d5c7b3;
+
+}
+
+h4 {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300 bolder;
+    font-style: normal;
+    margin: 5px;
+
+    background-color: #f5e2cb;
+}
+
+.about {
+    margin: 10px;
+    padding: 10px;
+}
+
+.me {
+    padding: 10px;
+}
+
+.hooby {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.my {
+    padding-bottom: 15px;
+}
+
+form {
+    width: 400px;
+    text-align: left;
+    margin: auto;
+    border: 2px solid #f5e2cb;
+    background-color: #f5e2cb;
+    padding: 10px;
+
+}
+
+label {
+    background-color: #f5e2cb;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: #2d4654;
+    color: white;
+}
+
+button:hover {
+    background-color: #67A2C5;
+}
+
+.contact {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media(min-width:100px) and (max-width:450px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h1,
+    .home {
+        background-color: #FFEBD3;
+        justify-content: center;
+        display: flex;
+
+    }
+}
